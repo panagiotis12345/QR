@@ -4,12 +4,12 @@
 "merchantCategoryCode": "4121",
 "merchantApplicationType": "0",
 "merchantPostalCode": "15121",
-"merchantName": "Dimcost42 Merchant",
+"merchantName": "Cardlink",
 "merchantAddress": "41-45 Marinou Antipa",
 "merchantTelephone": "2105758000",
-"merchantID": "0100984178",
+"merchantID": "0023839673",
 "cardlinkMerchantType": "100",
-"terminalID": "77400039",
+"terminalID": "77601578",
 "customerID": "00000000000001",
 "acqIndetifier": "014",
 "acqName": "ALPHA BANK"
@@ -34,11 +34,27 @@
 "acquirers": [
 {
 "acqIndetifier": "014",
-"acqName": "Alpha Bank"
+"acqName": "ALPHA BANK"
+},
+{
+"acqIndetifier": "026",
+"acqName": "EURO BANK"
 },
 {
 "acqIndetifier": "011",
 "acqName": "NBG"
+},
+{
+"acqIndetifier": "887",
+"acqName": "CARDLINK ONE"
+},
+{
+"acqIndetifier": "017",
+"acqName": "Piraeus"
+},
+{
+"acqIndetifier": "016",
+"acqName": "Attica"
 }
 ]
 },
@@ -48,11 +64,11 @@
 "isAllowRefundPayment": true
 },
 "applicationSettings": {
-"sdkLink": 2,
+"sdkLink": 1,
 "useMastercardNewBrand": true,
-"supportKeyEntry": false,
-"supportInstallments": false,
-"supportTIP": false,
+"supportKeyEntry": true,
+"supportInstallments": true,
+"supportTIP": true,
 "useBenakiTheme": false,
 "useVodafoneTheme": false,
 "useSklavenitisTheme": false,
@@ -65,7 +81,7 @@
 "alphaBankDCCProfileId": "19011",
 "alphaBankDCCPartnerId": "9011",
 "alphaBankDCCMerchantNumber": "123419011",
-"euroBankDCCSupport": false,
+"euroBankDCCSupport": true,
 "nbgAppSelectionEnabled": true,
 "nbgAppSelectionAcquirerBankId": "011",
 "ishceSelectionEnabled": false,
@@ -86,28 +102,28 @@
 "showEmvDataInReceipt": false,
 "acquirerBankNameAsBIDSetting": false,
 "barcodeSetting": "00",
-"customLogo": "https://mpos.cardlink.gr/files/custom_logo/23622459pharmacyPinakidisLogoBlackAndWhite.jpg",
+"customLogo": "",
 "dualLogoPrint": false,
 "cardlinkLogoOnTop": false,
 "asfalistikosgoneasPromoMessage": "ΕΞΟΦΛΗΣΤΕ ΤΑ ΑΣΦΑΛΙΣΤΡΑ ΣΑΣ ΜΕ ΠΙΣΤΩΤΙΚΗ ΚΑΡΤΑ ΚΑΙ ΚΕΡΔΙΣΤΕ ΕΚΠΤΩΣΗ ΕΩΣ ΚΑΙ 10% ΕΝΗΜΕΡΩΘΕΙΤΕ ΣΤΟ 210 8119670"
 }
 },
 "loyaltySettings": {
-"alphaBankBonusEnabled": false,
-"alphaBankBonusVTid": "77600535",
-"alphaBankBonusVMid": "0021425574",
-"useAlphaBankBonusBRAmount": false,
-"useAlphaBankBonusWithoutOffers": false,
+"alphaBankBonusEnabled": true,
+"alphaBankBonusVTid": "77601578",
+"alphaBankBonusVMid": "0023839673",
+"useAlphaBankBonusBRAmount": true,
+"useAlphaBankBonusWithoutOffers": true,
 "eurobankEuroepistrofiEnabled": false,
-"eurobankEuroepistrofiVTid": "77600535",
-"eurobankEuroepistrofiVMid": "0020083259",
+"eurobankEuroepistrofiVTid": "77601578",
+"eurobankEuroepistrofiVMid": "002383673",
 "eurobankEuroepistrofiUploadFullRedemption": false,
 "nbgGo4MoreEnabled": false,
-"nbgGo4MoreVTid": "36009992",
-"nbgGo4MoreVMid": "3173232",
+"nbgGo4MoreVTid": "31999982",
+"nbgGo4MoreVMid": "1235661",
 "pbgYellowEnabled": false,
-"pbgYellowVTid": "",
-"pbgYellowVMid": "",
+"pbgYellowVTid": "99923870",
+"pbgYellowVMid": "140723875",
 "pbgYellowPointsToRedeem": "2000",
 "sklavenitisPrepaidEnabled": false,
 "asfalistikosgoneasEnabled": false,
